@@ -110,7 +110,7 @@ read the **release notes** before.
 In order to check your software version, do::
 
    >>> import os
-   >>> os.uname().release
+   >>> os.uname().version
 
 If the version number is lower than the latest release found in
 `the releases <https://github.com/wipy/wipy/releases>`_, go ahead and update your WiPy!
